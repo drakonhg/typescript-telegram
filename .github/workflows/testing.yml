@@ -7,6 +7,6 @@ jobs:
       fail-fast: false
     steps:
       - name: Testing TS action
-        uses: drakonhg/typescript-telegram
+        uses: drakonhg/typescript-telegram@v0.1
         with:
           name: "Maria and Buba with Baton"
