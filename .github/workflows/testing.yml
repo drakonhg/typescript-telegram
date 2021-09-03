@@ -9,4 +9,4 @@ jobs:
       - name: Testing TS action
         uses: drakonhg/typescript-telegram@v1.0
         with:
-          name: "Maria and Buba with Baton"
+          Name: "Maria and Buba with Baton"
