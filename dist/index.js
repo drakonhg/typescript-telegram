@@ -39,9 +39,11 @@ const core = __importStar(__nccwpck_require__(186));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            core.debug('It is working');
+            // eslint-disable-next-line no-console
+            console.log('It is starting now');
             const name = core.getInput('name');
-            core.debug(name.big());
+            // eslint-disable-next-line no-console
+            console.log(name);
         }
         catch (error) {
             core.setFailed(error.message);
