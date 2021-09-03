@@ -2,9 +2,9 @@ import * as core from '@actions/core'
 
 async function run(): Promise<void> {
   try {
-    core.debug('It is working')
     const name: string = core.getInput('name')
-    core.debug(name.big())
+    // eslint-disable-next-line no-console
+    console.log(name)
   } catch (error) {
     core.setFailed(error.message)
   }
